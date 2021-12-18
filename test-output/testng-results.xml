@@ -1,73 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+  <suite name="Default suite" duration-ms="33011" started-at="2021-12-18T17:56:27 UTC" finished-at="2021-12-18T17:57:00 UTC">
     <groups>
+      <group name="ChromeOnly">
+        <method signature="BrowserBasedGroupTest.launchChromeTest()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="launchChromeTest" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.closeChrome()[pri:3, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="closeChrome" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testHomePageTitle()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testHomePageTitle" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testHomepageSoruceUrl()[pri:1, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testHomepageSoruceUrl" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testSearchData()[pri:2, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testSearchData" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+      </group> <!-- ChromeOnly -->
+      <group name="FirefoxOnly">
+        <method signature="BrowserBasedGroupTest.launchFireFoxTest()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="launchFireFoxTest" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFaceBookHomePage()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFaceBookHomePage" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFailureLogin()[pri:2, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFailureLogin" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+        <method signature="BrowserBasedGroupTest.testFieldsLogin()[pri:1, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFieldsLogin" class="com.webapp.test.group.BrowserBasedGroupTest"/>
+      </group> <!-- FirefoxOnly -->
     </groups>
-    <test name="Default test" duration-ms="65" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-      <class name="com.webapp.test.StandardAnnotationTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+    <test name="Default test" duration-ms="33011" started-at="2021-12-18T17:56:27 UTC" finished-at="2021-12-18T17:57:00 UTC">
+      <class name="com.webapp.test.group.BrowserBasedGroupTest">
+        <test-method status="PASS" signature="launchChromeTest()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="launchChromeTest" duration-ms="3442" started-at="2021-12-18T17:56:27 UTC" finished-at="2021-12-18T17:56:31 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- launchChromeTest -->
+        <test-method status="PASS" signature="launchFireFoxTest()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="launchFireFoxTest" duration-ms="5536" started-at="2021-12-18T17:56:31 UTC" finished-at="2021-12-18T17:56:36 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- launchFireFoxTest -->
+        <test-method status="PASS" signature="testFaceBookHomePage()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFaceBookHomePage" duration-ms="50" started-at="2021-12-18T17:56:36 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2021-12-18T17:56:37 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testFaceBookHomePage -->
+        <test-method status="PASS" signature="testHomePageTitle()[pri:0, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testHomePageTitle" duration-ms="28" started-at="2021-12-18T17:56:37 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2021-12-18T17:56:37 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testOne" duration-ms="8" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testHomePageTitle -->
+        <test-method status="PASS" signature="testFieldsLogin()[pri:1, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFieldsLogin" duration-ms="166" started-at="2021-12-18T17:56:37 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2021-12-18T17:56:37 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testFieldsLogin -->
+        <test-method status="PASS" signature="testHomepageSoruceUrl()[pri:1, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testHomepageSoruceUrl" duration-ms="7" started-at="2021-12-18T17:56:37 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2021-12-18T17:56:37 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testHomepageSoruceUrl -->
+        <test-method status="PASS" signature="testFailureLogin()[pri:2, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testFailureLogin" duration-ms="18421" started-at="2021-12-18T17:56:37 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchFireFoxTest" finished-at="2021-12-18T17:56:55 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testThree" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testFailureLogin -->
+        <test-method status="PASS" signature="testSearchData()[pri:2, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="testSearchData" duration-ms="5137" started-at="2021-12-18T17:56:55 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2021-12-18T17:57:00 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+        </test-method> <!-- testSearchData -->
+        <test-method status="PASS" signature="closeChrome()[pri:3, instance:com.webapp.test.group.BrowserBasedGroupTest@6043cd28]" name="closeChrome" duration-ms="134" started-at="2021-12-18T17:57:00 UTC" depends-on-methods="com.webapp.test.group.BrowserBasedGroupTest.launchChromeTest" finished-at="2021-12-18T17:57:00 UTC">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testTwo" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTwo -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- com.webapp.test.StandardAnnotationTest -->
+        </test-method> <!-- closeChrome -->
+      </class> <!-- com.webapp.test.group.BrowserBasedGroupTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
