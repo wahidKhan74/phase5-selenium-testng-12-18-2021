@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+      <class name="com.webapp.test.StandardAnnotationTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeSuite" is-config="true" duration-ms="10" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeClass" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testOne()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testOne" duration-ms="8" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testThree()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testThree" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="testTwo" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterTest" is-config="true" duration-ms="0" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.webapp.test.StandardAnnotationTest@7cbd213e]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-12-18T15:58:40 UTC" finished-at="2021-12-18T15:58:40 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.webapp.test.StandardAnnotationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
