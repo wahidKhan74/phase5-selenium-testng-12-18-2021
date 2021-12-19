@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Anonnation Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.008">
+  <properties />
+  
+  
+            <testcase name="testTwo" time="0.004" classname="com.webapp.test.StandardAnnotationTest" />
+                <testcase name="testOne" time="0.003" classname="com.webapp.test.StandardAnnotationTest" />
+                <testcase name="testThree" time="0.001" classname="com.webapp.test.StandardAnnotationTest" />
+      
+</testsuite>

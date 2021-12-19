@@ -10,7 +10,7 @@ public class TestNgAssertionTest {
 	// hard assert : Hard Assert throws an AssertException immediately when an
 	// assert statement fails and test suite continues with next @Test method
 	
-	@Test
+	@Test(description="Hard Assert methods Test")
 	void hardAssertTest() {
 		System.out.println("--- Hard Assert methods was started ----");
 		// assertEquals(true, false);  // Assertion Error.

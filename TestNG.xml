@@ -1,5 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="EcomWebapp Test Suite">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="EcomWebapp Test Suite" parallel="tests" thread-count="10" verbose="0" configfailurepolicy="skip">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	
 	<test name="Amazon Tests">
 		<classes>
 			<class name="com.webapp.test.amazon.AmazonHomepageTest"></class>
@@ -14,6 +19,13 @@
 	<test name="Anonnation Tests">
 		<classes>
 			<class name="com.webapp.test.StandardAnnotationTest"></class>
+			<class name="com.webapp.test.TestNgAssertionTest"></class>
 		</classes>
 	</test>
+	<test name="Group Tests">
+		<classes>
+			<class name="com.webapp.test.group.BrowserBasedGroupTest"></class>
+		</classes>
+	</test>
+	
 </suite>

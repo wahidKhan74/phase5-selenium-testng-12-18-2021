@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Amazon Tests"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.537">
+  <properties />
+  
+  
+            <testcase name="testHomepageSoruceUrl" time="0.335" classname="com.webapp.test.amazon.AmazonHomepageTest" />
+                <testcase name="testHomePageTitle" time="0.687" classname="com.webapp.test.amazon.AmazonHomepageTest" />
+                <testcase name="testSearchData" time="3.515" classname="com.webapp.test.amazon.AmazonHomepageTest" />
+      
+</testsuite>

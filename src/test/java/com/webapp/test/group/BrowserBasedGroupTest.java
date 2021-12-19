@@ -109,6 +109,6 @@ public class BrowserBasedGroupTest {
 	
 	@Test(groups = "FirefoxOnly", dependsOnMethods="launchFireFoxTest", priority=3)
 	public void closeFireFoxTest() {
-		driverOne.close();
+		driverTwo.close();
 	}
 }
